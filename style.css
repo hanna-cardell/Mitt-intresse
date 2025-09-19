@@ -2,7 +2,14 @@
 
 body{
     margin: 0;
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
+    font-family:  'Lucida Grande',sans-serif;
+    
+}
+
+html {
+    /* så inte header döljer anchor link */
+    scroll-padding-top: 22vh;
 }
 
 a {
@@ -43,6 +50,17 @@ a {
     display: block;
 }
 
+/* Footer */
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #434343;
+    color: #fefefe;
+    height: 12vh;
+    
+}
+
 /* Alla "lådor" */
 .flex-container {
     display: flex;
@@ -58,6 +76,7 @@ a {
     padding: 20px;
     border-radius: 20px;
     /* width: 90vw; */
+    width: 90vw;
     border: 15px solid #01C5FA;
 }
 
@@ -69,9 +88,29 @@ a {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    width: 97vw;
+    /* width: 97vw; */
     border: 15px solid #0075FA;
+    width: 90vw;
 }
+
+/* .link {
+
+} */
+
+
+.box3 {  
+    
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 97vw; */
+    width: 90vw;
+    border: 15px solid #4700fa;
+}
+
+
 
 /* Sida 2 */
 .box11 {
@@ -81,12 +120,14 @@ a {
     padding: 20px;
     border-radius: 20px;
     /* width: 90vw; */
+    width: 90vw;
     border: 15px solid #B400FA;
 }
 
 .box12 {
     display: flex;
     justify-content: space-between;
+    width: 90vw;
 }
 
 .box121 {
@@ -115,7 +156,17 @@ a {
     border-radius: 20px;
     /* width: 90vw; */
     border: 15px solid #FA0050;
+    width: 90vw;
 }
+
+@media screen and (max-width: 750px){
+  
+    .box12 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
 
 /* Sida 3 */
 .box21 {
@@ -126,11 +177,13 @@ a {
     border-radius: 20px;
     /* width: 90vw; */
     border: 15px solid #00FAD5;
+    width: 90vw;
 }
 
 .box22 {
     display: flex;
     justify-content: space-between;
+    width: 90vw;
 }
 
 .box221 {
@@ -159,4 +212,49 @@ a {
     border-radius: 20px;
     /* width: 90vw; */
     border: 15px solid #007FFA;
+    width: 90vw;
+}
+
+
+@media screen and (max-width: 750px){
+  
+    .box22 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+/* Sida 4 */
+
+.box31 {
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 90vw; */
+    width: 90vw;
+    border: 15px solid #fa6901;
+}
+
+.box32 {
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 90vw; */
+    width: 90vw;
+    border: 15px solid #fac401;
+}
+
+
+.box33 {
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 90vw;
+    border: 15px solid #ff4e4e;
 }
