@@ -3,12 +3,12 @@
 body{
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
-    
 }
 
 html {
     /* så inte header döljer anchor link */
     scroll-padding-top: 22vh;
+    height: 100vh;
 }
 
 /* vanlig text */
@@ -115,7 +115,7 @@ li {
     
     color:#fefefe;
     background-color: #282828;
-    margin: 20px;
+    margin: 20px 20px 50px 20px;
     padding: 20px;
     border-radius: 20px;
     width: 90vw;
@@ -168,7 +168,7 @@ li {
 }
 
 @media screen and (max-width: 1000px){
-    
+
     .box12 {
         display: flex;
         flex-wrap: wrap;
