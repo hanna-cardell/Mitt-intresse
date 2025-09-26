@@ -8,7 +8,7 @@ body{
 html {
     /* så inte header döljer anchor link */
     scroll-padding-top: 22vh;
-    height: 100vh;
+    
 }
 
 /* vanlig text */
