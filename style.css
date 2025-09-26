@@ -25,6 +25,13 @@ a:hover {
     color: silver;
 }
 
+/* listan med fakta */
+li {
+    font-size: larger;
+    line-height: 2.5;
+    font-weight: normal;
+}
+
 
 /* Header */
 .header-flex {
@@ -51,9 +58,9 @@ a:hover {
     right: 0;
     left: auto;
     background-color: #434343;
+    margin:0;
     padding: 45px 30px;
     line-height: 2.5;
-    margin:0;
     font-family: "Arial";
     text-decoration: underline;
 }
@@ -88,7 +95,7 @@ a:hover {
 .box1 {
     color:#fefefe;
     background-color: #282828;
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
     /* width: 90vw; */
@@ -101,7 +108,8 @@ a:hover {
     justify-content: space-evenly;
     color:#fefefe;
     background-color: #282828;
-    margin: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: -10px;
     padding: 20px;
     border-radius: 20px;
     /* width: 97vw; */
@@ -150,6 +158,7 @@ a:hover {
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #6100FA;
+    width: 35vw;
 }
 
 .box122 {
@@ -159,6 +168,7 @@ a:hover {
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #FA00E6;
+    width: 50vw;
 }
 
 .box13 {
@@ -172,7 +182,7 @@ a:hover {
     width: 90vw;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
     .box12 {
     display: flex;
     flex-wrap: wrap;
@@ -214,7 +224,7 @@ a:hover {
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #00FA80;
-    width: 45vw;
+    width: 35vw;
 }
 
 .box222 {
@@ -224,7 +234,7 @@ a:hover {
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #00CEFA;
-    width: 40vw;
+    width: 50vw;
 }
 
 .box23 {
@@ -245,7 +255,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
   
     .box22 {
     display: flex;
@@ -295,4 +305,69 @@ a:hover {
     border-radius: 20px;
     width: 90vw;
     border: 15px solid #ff4e4e;
+}
+
+/* Sida "5" */
+.box51 {
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 90vw; */
+    width: 90vw;
+    border: 15px solid #fa5700;
+}
+
+.box52 {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.box521 {
+    color:#fefefe;
+    background-color: #282828;
+    /* margin: 20px; */
+    padding: 20px;
+    border-radius: 20px;
+    border: 15px solid #ff2f2f;
+    width: 35vw;
+}
+
+.box522 {
+    color:#fefefe;
+    background-color: #282828;
+    /* margin: 20px; */
+    padding: 20px;
+    border-radius: 20px;
+    border: 15px solid #fa0092;
+    width: 50vw;
+}
+
+.box53 {
+    color:#fefefe;
+    background-color: #282828;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 90vw; */
+    border: 15px solid #fa00c8;
+    width: 90vw;
+}
+
+@media screen and (max-width: 1000px){
+    .box52 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .box521 {
+        width:90vw;
+        margin-bottom: 20px;
+    }
+
+    .box522 {
+        width:90vw;
+    }
 }
