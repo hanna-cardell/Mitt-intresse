@@ -2,7 +2,6 @@
 
 body{
     margin: 0;
-    /* background-color: #D9D9D9; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
     
 }
@@ -12,15 +11,17 @@ html {
     scroll-padding-top: 22vh;
 }
 
+/* vanlig text */
 p {
     font-family:'Arial';
 }
 
+/* länkar */
 a {
     color: #fefefe;
-    text-decoration: none;
 }
 
+/* om hovrar så byter länken färg */
 a:hover {
     color: silver;
 }
@@ -48,7 +49,6 @@ li {
 
 .meny {
     font-size: 0.7em;
-    /* position: relative; */
 }
   
 /* "Sidebar" */
@@ -65,6 +65,7 @@ li {
     text-decoration: underline;
 }
   
+/* visar menyn om man hovrar */
 .meny:hover .dropdown-content {
     display: block;
 }
@@ -78,10 +79,6 @@ li {
     background-color: #434343;
     color: #fefefe;
     height: 12vh;
-}
-
-.footer-content {
-    text-decoration: underline;
 }
 
 /* Alla "lådor" */
@@ -98,7 +95,6 @@ li {
     margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     width: 90vw;
     border: 15px solid #01C5FA;
 }
@@ -108,11 +104,9 @@ li {
     justify-content: space-evenly;
     color:#fefefe;
     background-color: #282828;
-    /* margin-bottom: 20px; */
     margin-top: -10px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 97vw; */
     border: 15px solid #0075FA;
     width: 90vw;
 }
@@ -124,13 +118,8 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 97vw; */
     width: 90vw;
     border: 15px solid #4700fa;
-}
-
-.link {
-    text-decoration: underline;
 }
 
 /* Sida 2 */
@@ -140,7 +129,6 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     width: 90vw;
     border: 15px solid #B400FA;
 }
@@ -154,7 +142,6 @@ li {
 .box121 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #6100FA;
@@ -164,7 +151,6 @@ li {
 .box122 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #FA00E6;
@@ -177,15 +163,15 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     border: 15px solid #FA0050;
     width: 90vw;
 }
 
 @media screen and (max-width: 1000px){
+    
     .box12 {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .box121 {
@@ -206,7 +192,6 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     border: 15px solid #00FAD5;
     width: 90vw;
 }
@@ -220,7 +205,6 @@ li {
 .box221 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #00FA80;
@@ -230,7 +214,6 @@ li {
 .box222 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #00CEFA;
@@ -243,7 +226,6 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     border: 15px solid #007FFA;
     width: 90vw;
 }
@@ -258,8 +240,8 @@ li {
 @media screen and (max-width: 1000px){
   
     .box22 {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .box221 {
@@ -273,14 +255,12 @@ li {
 }
 
 /* Sida 4 */
-
 .box31 {
     color:#fefefe;
     background-color: #282828;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     width: 90vw;
     border: 15px solid #fa6901;
 }
@@ -291,7 +271,6 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     width: 90vw;
     border: 15px solid #fac401;
 }
@@ -314,7 +293,6 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     width: 90vw;
     border: 15px solid #fa5700;
 }
@@ -328,7 +306,6 @@ li {
 .box521 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #ff2f2f;
@@ -338,7 +315,6 @@ li {
 .box522 {
     color:#fefefe;
     background-color: #282828;
-    /* margin: 20px; */
     padding: 20px;
     border-radius: 20px;
     border: 15px solid #fa0092;
@@ -351,15 +327,14 @@ li {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    /* width: 90vw; */
     border: 15px solid #fa00c8;
     width: 90vw;
 }
 
 @media screen and (max-width: 1000px){
     .box52 {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .box521 {
